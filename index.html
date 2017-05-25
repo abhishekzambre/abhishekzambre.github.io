@@ -1,392 +1,118 @@
-
 <!DOCTYPE html>
-<html class="no-js"> <!--<![endif]-->
-	<head>
-	<meta charset="utf-8">
-	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Abhishek Zambre</title>
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="description" content="Portfolio of Abhishek Zambre" />
-	<meta name="keywords" content="computer science, ASU, arizona state university, COEP, college of engineering, pune, india, web development" />
-	<meta name="author" content="Abhishek Zambre" />
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>Abhishek Zambre's Portfolio Website</title>
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
 
+  <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
 
-  	<!-- Facebook and Twitter integration -->
-	<meta property="og:title" content=""/>
-	<meta property="og:image" content=""/>
-	<meta property="og:url" content=""/>
-	<meta property="og:site_name" content=""/>
-	<meta property="og:description" content=""/>
-	<meta name="twitter:title" content="" />
-	<meta name="twitter:image" content="" />
-	<meta name="twitter:url" content="" />
-	<meta name="twitter:card" content="" />
+      <link rel="stylesheet" href="css/style.css">
 
-	<!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-	<!-- <link rel="shortcut icon" href="favicon.ico"> -->
+  
+</head>
 
-	<!-- <link href='https://fonts.googleapis.com/css?family=Playfair+Display:400,700,400italic,700italic|Merriweather:300,400italic,300italic,400,700italic' rel='stylesheet' type='text/css'> -->
-	
-	<!-- Animate.css -->
-	<link rel="stylesheet" href="css/animate.css">
-	<!-- Icomoon Icon Fonts-->
-	<link rel="stylesheet" href="css/icomoon.css">
-	<!-- Simple Line Icons -->
-	<link rel="stylesheet" href="css/simple-line-icons.css">
-	<!-- Magnific Popup -->
-	<link rel="stylesheet" href="css/magnific-popup.css">
-	<!-- Bootstrap  -->
-	<link rel="stylesheet" href="css/bootstrap.css">
-	<!-- Theme style -->
-	<link rel="stylesheet" href="css/style.css">
+<body>
+      <div id="wrapper">
+        <div class="overlay"></div>
+    
+        <!-- Sidebar -->
+        <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
+            <ul class="nav sidebar-nav">
+                <li class="sidebar-brand">
+                    <a href="#">
+                        Abhishek Zambre
+                    </a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-fw fa-home"></i> Home</a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-fw fa-wrench"></i> Skill Set</a>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-fw fa-graduation-cap"></i> Education <span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">Arizona State University</a></li>
+                        <li><a href="#">College of Engineering, Pune</a></li>
+                        <li><a href="#">Government Polytechnic</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                    <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-fw fa-university"></i> Professional <span class="caret"></span></a>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><a href="#">ASU College of Health Solutions</a></li>
+                        <li><a href="#">Zimbra</a></li>
+                        <li><a href="#">Amdocs</a></li>
+                    </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-fw fa-users"></i> Projects <span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li class="dropdown-header">Personal</li>
+                    <li><a href="#">TrackMyJobs</a></li>
+                    <li><a href="#">Meet-n-Eat</a></li>
+                    <li class="dropdown-header">Academic</li>
+                    <li><a href="#">Safe and Independent Living</a></li>
+                    <li><a href="#">Data Mining Projects</a></li>
+                    <li><a href="#">Fake Review Detection</a></li>
+                    <li><a href="#">Batroid - Android Assistant</a></li>
+                    <li><a href="#">C55 - Secured Banking System</a></li>
+                  </ul>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-fw fa-bank"></i> Personal</a>
+                </li>
+                <li>
+                    <a href="https://github.com/abhishekzambre" target="_blank"><i class="fa fa-fw fa-github"></i> Github</a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/in/azambre" target="_blank"><i class="fa fa-fw fa-linkedin"></i> LinkedIn</a>
+                </li>
+                <li>
+                    <a href="https://www.facebook.com/abhishek.zambre" target="_blank"><i class="fa fa-fw fa-facebook-square"></i> Facebook</a>
+                </li>
+                <li>
+                    <a href="https://www.youtube.com/user/AbhishekZambre" target="_blank"><i class="fa fa-fw fa-youtube-play"></i> YouTube</a>
+                </li>
+                <li>
+                    <a href="https://twitter.com/abhishekzambre" target="_blank"><i class="fa fa-fw fa-twitter"></i> Twitter</a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/abhishek_zambre/" target="_blank"><i class="fa fa-fw fa-instagram"></i> Instagram</a>
+                </li>
+                <li>
+                    <a href="#"><i class="fa fa-fw fa-life-ring"></i> Contact Me</a>
+                </li>
+            </ul>
+        </nav>
+        <!-- /#sidebar-wrapper -->
 
+        <!-- Page Content -->
+        <div id="page-content-wrapper">
+          <button type="button" class="hamburger is-closed animated fadeInLeft" data-toggle="offcanvas">
+            <span class="hamb-top"></span>
+            <span class="hamb-middle"></span>
+            <span class="hamb-bottom"></span>
+          </button>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-8 col-lg-offset-2">
+                        <h1 class="page-header">Abhishek Zambre</h1>
+                        <p class="lead">Full-stack Developer with a 7 years of professional experience in Web and Software Development.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /#page-content-wrapper -->
 
-	<!-- Modernizr JS -->
-	<script src="js/modernizr-2.6.2.min.js"></script>
-	<!-- FOR IE9 below -->
-	<!--[if lt IE 9]>
-	<script src="js/respond.min.js"></script>
-	<![endif]-->
+    </div>
+    <!-- /#wrapper -->
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+<script src='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js'></script>
 
-	</head>
-	<body>
-	
-	<!-- Loader -->
-	<div class="fh5co-loader"></div>
-	<div class="fh5co-page">
+    <script src="js/index.js"></script>
 
-	<div id="fh5co-container">
-		<div id="fh5co-home" class="js-fullheight-home" data-section="home" style="background-image: url(images/hero_bg.jpg);" data-stellar-background-ratio="0.5">
-			<div class="container">
-				<div class="col-md-6">
-					<div class="js-fullheight-home fh5co-copy">
-						<div class="js-fullheight-home fh5co-copy-inner">
-							<h1>Abhishek Zambre</h1>
-							<h2>Portfolio Website</h2>
-							<!--h2>Lovely hand-crafted by the fine folks at <a href="http://freehtml5.co/" target="_blank">FreeHTML5.co</a></h2-->
-						</div>
-					</div>
-				</div>
-			</div>
-		</div>
-		
-		<div class="js-sticky">
-			<div class="fh5co-main-nav">
-				<div class="container">
-					<div class="fh5co-menu-1">
-						<a href="#" data-nav-section="home">Home</a>
-						<a href="#" data-nav-section="mission">Academics</a>
-						<a href="#" data-nav-section="services">Professional</a>
-						<a href="#" data-nav-section="team">Personal</a>
-						<a href="#" data-nav-section="contact">Contact Me</a>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		<div id="fh5co-about" data-section="mission">
-			<div class="fh5co-2col">
-				
-				<div class="fh5co-2col-inner left">
-						
-						<div class="fh5co-tabs-container">
-							<ul class="fh5co-tabs fh5co-three">
-								<li class="active"><a href="#" data-tab="marketing">Arizona State University</a></li>
-								<li><a href="#" data-tab="analysis">College of Engineering</a></li>
-								<li><a href="#" data-tab="strategy">Government Polytechnic</a></li>
-							</ul>
-							<div class="fh5co-tab-content active" data-tab-content="marketing">
-								<h3>Master of Computer Science</h3>
-								<p><a href="http://www.asu.edu" target="_blank">Ira A. Fulton Schools of Engineering, ASU</a>, Tempe, AZ.</p>
-								<p><b>2016-2018</b></p>
-								<p><b>CGPA :</b> NA</p>
-								<p><b>Projects :</b> Secured Banking System<br>
-									<b>Role : </b>Handled server setup. Configuring build and deployment activities. Worked with Infrastructure team and Namecheap / Comodo CA for SSL Certificate and TrustLogo installation. Handled vulnerabilities testing.</p>
-								<ul class="checked">
-									<li>Foundations of Algorithms</li>
-									<li>Software Security</li>
-									<li>Mobile Computing</li>
-								</ul>
-								<p><a href="https://webapp4.asu.edu/directory/person/2841677" target="_blank" class="btn btn-primary btn-outline">ASU Profile</a></p>
-							</div>
-
-							<div class="fh5co-tab-content" data-tab-content="analysis">
-								<h3>Bachelor of Technology (Computer Science)</h3>
-								<p><a href="http://www.coep.org.in" target="_blank">College of Engineering, Pune</a>, Maharashtra - 411 001 (India).</p>
-								<p><b>2006-2009</b></p>
-								<p><b>CGPA : </b>7.35/10</p>
-								<p><b>Project :</b> E-mail Sniffer for an Enterprise<br>
-								   <b>Sponsor : </b><a href="https://www.persistent.com" target="_blank">Persistent Systems Pvt. Ltd.</a>, Pune - 411 016 (MH, India).<br>
-								   <b>Role : </b>Designed and implemented pattern recognition module for intrusion detection. Handled performance testing on a college network with up to 30 mails per second.
-								</p>
-							</div>
-
-							<div class="fh5co-tab-content" data-tab-content="strategy">
-								<h3>Diploma in Information Technology</h3>
-								<p><a href="http://gpnanded.org" target="_blank">Government Polytechnic, Nanded</a> - 431 601 (MH, India).</p>
-								<p><b>2003-2006</b></p>
-								<p><b>Percentage : </b>85%</p>
-								<p><b>Project :</b> Hospital Management System<br>
-								   <b>Sponsor : </b>Ashwini Hospital and Ramakant Heart Care Centre, Nanded - 411 016 (MH, India).<br>
-								   <b>Role : </b>Performed requirements gathering, back-end implementation and network configuration. Highest scorer project in the class for Entrepreneurship and Development Skills course.
-								</p>
-							</div>
-
-						</div>
-
-				</div>
-
-			</div>
-			<div class="fh5co-2col fh5co-text">
-				<div class="fh5co-grid">
-					<div class="fh5co-grid-item" style="background-image: url(images/img_3.jpg);"></div>
-					<div class="fh5co-grid-item" style="background-image: url(images/img_2.jpg);"></div>
-					<div class="fh5co-grid-item" style="background-image: url(images/img_1.jpg);"></div>
-					<div class="fh5co-grid-item" style="background-image: url(images/img_4.jpg);"></div>
-				</div>
-			</div>
-		</div> <!-- END fh5co-about -->
-
-		<div id="fh5co-services" data-section="services">
-			<div class="container">
-				<div class="col-md-6 col-md-offset-3 text-center fh5co-heading">
-					<h2>Coming Soon</h2>
-					<!-- h2>Our Services</h2>
-
-					<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident.</p -->
-				</div>
-				<div class="col-md-4">
-					<div class="service">
-						<div class="icon"><i class="icon-present"></i></div>
-						<h3>Amdocs</h3>
-						<p>Senior Subject Matter Expert - Configuration Control Management</p>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="service">
-						<div class="icon"><i class="icon-eye"></i></div>
-						<h3>Zimbra</h3>
-						<p>Senior Software Engineer - Build and Release Engineering</p>
-					</div>
-				</div>
-				<!--div class="col-md-4">
-					<div class="service">
-						<div class="icon"><i class="icon-paper-plane"></i></div>
-						<h3>Light Speed</h3>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident.</p>
-					</div>
-				</div>
-
-				<div class="col-md-4">
-					<div class="service">
-						<div class="icon"><i class="icon-pencil"></i></div>
-						<h3>Copyrighting</h3>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident.</p>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="service">
-						<div class="icon"><i class="icon-rocket"></i></div>
-						<h3>Load Fast</h3>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident.</p>
-					</div>
-				</div>
-				<div class="col-md-4">
-					<div class="service">
-						<div class="icon"><i class="icon-support"></i></div>
-						<h3>Customer Support</h3>
-						<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eveniet nam itaque ipsam iste provident quo ipsam iste provident.</p>
-					</div>
-				</div>
-				<div class="col-md-12 text-center">
-					<p><a href="#" class="btn btn-primary btn-outline">Get In Touch</a></p>
-				</div>
-
-			</div>
-
-		</div> < END fh5co-services -->
-		
-		<div id="fh5co-gallery">
-			<a href="images/img_3.jpg" class="fh5co-item image-popup" style="background-image: url(images/img_3.jpg)">
-				<div class="fh5co-overlay"></div>
-				<div class="fh5co-copy">
-					<div class="fh5co-copy-inner">
-						<h2>Consectetur adipisicing</h2>
-						<h3>Web Design</h3>
-					</div>
-				</div>
-			</a>
-			<a href="images/img_2.jpg" class="fh5co-item image-popup" style="background-image: url(images/img_2.jpg)">
-				<div class="fh5co-overlay"></div>
-				<div class="fh5co-copy">
-					<div class="fh5co-copy-inner">
-						<h2>Consectetur adipisicing</h2>
-						<h3>Web Design</h3>
-					</div>
-				</div>
-			</a>
-			<a href="images/img_1.jpg" class="fh5co-item image-popup" style="background-image: url(images/img_1.jpg)">
-				<div class="fh5co-overlay"></div>
-				<div class="fh5co-copy">
-					<div class="fh5co-copy-inner">
-						<h2>Consectetur adipisicing</h2>
-						<h3>Illustration</h3>
-					</div>
-				</div>
-			</a>
-			<a href="images/img_4.jpg" class="fh5co-item image-popup" style="background-image: url(images/img_4.jpg)">
-				<div class="fh5co-overlay"></div>
-				<div class="fh5co-copy">
-					<div class="fh5co-copy-inner">
-						<h2>Consectetur adipisicing</h2>
-						<h3>Web Design</h3>
-					</div>
-				</div>
-			</a>
-			<a href="images/img_4.jpg" class="fh5co-item image-popup" style="background-image: url(images/img_4.jpg)">
-				<div class="fh5co-overlay"></div>
-				<div class="fh5co-copy">
-					<div class="fh5co-copy-inner">
-						<h2>Consectetur adipisicing</h2>
-						<h3>Logo, Branding</h3>
-					</div>
-				</div>
-			</a>
-			<a href="images/img_1.jpg" class="fh5co-item image-popup" style="background-image: url(images/img_1.jpg)">
-				<div class="fh5co-overlay"></div>
-				<div class="fh5co-copy">
-					<div class="fh5co-copy-inner">
-						<h2>Consectetur adipisicing</h2>
-						<h3>Brnading, Identity</h3>
-					</div>
-				</div>
-			</a>
-			<a href="images/img_2.jpg" class="fh5co-item image-popup" style="background-image: url(images/img_2.jpg)">
-				<div class="fh5co-overlay"></div>
-				<div class="fh5co-copy">
-					<div class="fh5co-copy-inner">
-						<h2>Consectetur adipisicing</h2>
-						<h3>Packaging</h3>
-					</div>
-				</div>
-			</a>
-			<a href="images/img_3.jpg" class="fh5co-item image-popup" style="background-image: url(images/img_3.jpg)">
-				<div class="fh5co-overlay"></div>
-				<div class="fh5co-copy">
-					<div class="fh5co-copy-inner">
-						<h2>Consectetur adipisicing</h2>
-						<h3>Web Design</h3>
-					</div>
-				</div>
-			</a>
-		</div> <!-- END fh5co-gallery -->
-
-		<div id="fh5co-team" data-section="team">
-			<div class="container">
-				<div class="col-md-6 col-md-offset-3 text-center fh5co-heading">
-					<h2>Personal</h2>
-					<p>Coming Soon</p>
-				</div>
-				<div class="col-md-4">
-					<div class="person">
-						<img src="images/person1.jpg" alt="" class="img-responsive">
-						<h3>Abhishek Zambre</h3>
-						<h4>CS Graduate Student at ASU</h4>
-						<p>Master of Computer Science</p>
-						<ul class="social">
-							<li><a href="#"><i class="icon-facebook"></i></a></li>
-							<li><a href="#"><i class="icon-twitter"></i></a></li>
-							<li><a href="#"><i class="icon-dribbble"></i></a></li>
-							<li><a href="#"><i class="icon-instagram"></i></a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div> <!-- END fh5co-team -->
-
-		<!--div id="fh5co-contact" data-section="contact">
-			<div class="container">
-				<div class="col-md-6 col-md-offset-3 text-center fh5co-heading">
-					<h2>Contact Me</h2>
-					<p>Please use below form to get in touch with me.</p>
-				</div>
-				<form action="#" method="post">
-					<div class="row">
-						<div class="col-md-6">
-							<div class="form-group">
-								<input type="text" name="name" class="form-control" placeholder="Your name">
-							</div>		
-						</div>
-						<div class="col-md-6">
-							<div class="form-group">
-								<input type="email" name="email" class="form-control" placeholder="Your email">
-							</div>		
-						</div>
-						<div class="col-md-12">
-							<div class="form-group">
-								<textarea name="message" id="" cols="30" rows="7" class="form-control" placeholder="Your message"></textarea>
-							</div>		
-						</div>
-						<div class="col-md-12">
-							<div class="form-group">
-								<input type="submit" name="submit" value="Send message" class="btn btn-primary btn-outline">
-							</div>
-						</div>
-					</div>
-					
-				</form>
-			</div>
-		</div-->
-
-		<div id="fh5co-footer">
-			<div class="container">
-				<div class="row">
-					<div class="col-md-6">
-						<p><small>Abhishek Zambre<br>Tempe AZ.</small></p>
-					</div>
-					<div class="col-md-6">
-						<ul class="fh5co-social">
-							<li><a href="https://in.linkedin.com/in/abhishekzambre" target="_blank"><i class="icon-linkedin"></i></a></li>
-							<li><a href="https://github.com/abhishekzambre" target="_blank"><i class="icon-github"></i></a></li>
-							<li><a href="https://www.facebook.com/abhishek.zambre" target="_blank"><i class="icon-facebook"></i></a></li>
-							<li><a href="https://www.youtube.com/user/AbhishekZambre" target="_blank"><i class="icon-youtube"></i></a></li>
-							<li><a href="https://twitter.com/abhishekzambre" target="_blank"><i class="icon-twitter"></i></a></li>
-							<li><a href="https://www.instagram.com/abhishek_zambre" target="_blank"><i class="icon-instagram"></i></a></li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-
-		
-		
-	</div>
-
-	</div>
-
-	<div class="gototop js-top">
-		<a href="#" class="js-gotop"><i class="icon-arrow-up"></i></a>
-	</div>
-	
-	
-	
-	
-	<!-- jQuery -->
-	<script src="js/jquery.min.js"></script>
-	<!-- jQuery Easing -->
-	<script src="js/jquery.easing.1.3.js"></script>
-	<!-- Bootstrap -->
-	<script src="js/bootstrap.min.js"></script>
-	<!-- Waypoints -->
-	<script src="js/jquery.waypoints.min.js"></script>
-	<!-- Stellar Parallax -->
-	<script src="js/jquery.stellar.min.js"></script>
-	<!-- Magnific Popup -->
-	<script src="js/jquery.magnific-popup.min.js"></script>
-	<script src="js/magnific-popup-options.js"></script>
-	<!-- Main JS -->
-	<script src="js/main.js"></script>
-
-	</body>
+</body>
 </html>
-
