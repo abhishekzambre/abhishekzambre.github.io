@@ -849,7 +849,7 @@ Resume Timeline
 }
 
 .timeline>li .timeline-content:hover {
-    background: #8b89c3;
+    background: #7f48c3;
     color: #fff;
 }
 
@@ -1792,4 +1792,9 @@ Icon for all respective meta
 }
 .modal-footer {
     background-color: #f9f9f9;
+}
+
+
+.modal {
+    overflow-y: scroll;
 }
