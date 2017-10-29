@@ -47,12 +47,12 @@
               <td><xsl:value-of select="@Rating"/></td>
               <td><xsl:value-of select="Title/@Runtime"/></td>
               <td>
-                <xsl:for-each select="Director/Name">
-                  <xsl:value-of select="First"/>
+                <xsl:for-each select="Director">
+                  <xsl:value-of select="Name/First"/>
                   <xsl:text> </xsl:text>
-                  <xsl:value-of select="Last"/>
+                  <xsl:value-of select="Name/Last"/>
                   <xsl:text> </xsl:text>
-                  <xsl:if test="@High-rated-movie">(High-rated: <xsl:value-of select="@High-rated-movie"/>)</xsl:if>
+                  <xsl:if test="Name/@High-rated-movie">(High-rated: <xsl:value-of select="Name/@High-rated-movie"/>)</xsl:if>
                   <br/>
                 </xsl:for-each>
               </td>
