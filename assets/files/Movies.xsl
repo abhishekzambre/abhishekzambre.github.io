@@ -25,7 +25,6 @@
   </head>
   
   <body>
-    <div class="container">
       <h1 style="text-align: center">Movies XML/XSL Transformation</h1>
       <hr/>
       <table class="table">
@@ -64,7 +63,6 @@
           </xsl:for-each>
         </tbody>
       </table>
-    </div>
   </body> 
 </html>
 </xsl:template>
