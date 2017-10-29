@@ -1,0 +1,137 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet type="text/xsl" href="Movies.xsl"?>
+<Movies>
+  <Movie Rating="R">
+    <Title Runtime="142">The Shawshank Redemption</Title>
+    <Genre>Crime, Drama</Genre>
+    <Director>
+      <Name>
+        <First>Frank</First>
+        <Last>Darabont</Last>
+      </Name>
+    </Director>
+    <Studio>Castle Rock Entertainment</Studio>
+    <Year>1994</Year>
+  </Movie>
+
+  <Movie Rating="PG-13">
+    <Title Runtime="152">The Dark Knight</Title>
+    <Genre>Action, Crime, Drama</Genre>
+    <Director>
+      <Name>
+        <First>Christopher</First>
+        <Last>Nolan</Last>
+      </Name>
+    </Director>
+    <Studio>Warner Bros.</Studio>
+    <Year>2008</Year>
+  </Movie>
+
+  <Movie Rating="R">
+    <Title Runtime="195">Schindler's List</Title>
+    <Genre>Biography, Drama, History</Genre>
+    <Director>
+      <Name High-rated-movie="Saving Private Ryan">
+        <First>Steven</First>
+        <Last>Spielberg</Last>
+      </Name>
+    </Director>
+    <Studio>Universal Pictures</Studio>
+    <Year>1993</Year>
+  </Movie>
+
+  <Movie Rating="R">
+    <Title Runtime="136">The Matrix</Title>
+    <Genre>Action, Sci-Fi</Genre>
+    <Director>
+      <Name>
+        <First>Lana</First>
+        <Last>Wachowski</Last>
+      </Name>
+      <Name>
+        <First>Lilly</First>
+        <Last>Wachowski</Last>
+      </Name>
+    </Director>
+    <Studio>Warner Bros.</Studio>
+    <Year>1999</Year>
+  </Movie>
+
+  <Movie Rating="PG-13">
+    <Title Runtime="148">Inception</Title>
+    <Genre>Action, Adventure, Sci-Fi</Genre>
+    <Director>
+      <Name High-rated-movie="The Dark Knight">
+        <First>Christopher</First>
+        <Last>Nolan</Last>
+      </Name>
+    </Director>
+    <Studio>Warner Bros.</Studio>
+    <Year>2010</Year>
+  </Movie>
+
+  <Movie Rating="PG-13">
+    <Title Runtime="178">The Lord of the Rings</Title>
+    <Genre>Adventure, Drama, Fantasy</Genre>
+    <Director>
+      <Name>
+        <First>Peter</First>
+        <Last>Jackson</Last>
+      </Name>
+    </Director>
+    <Studio>New Line Cinema</Studio>
+    <Year>2001</Year>
+  </Movie>
+
+  <Movie Rating="PG">
+    <Title Runtime="125">Spirited Away</Title>
+    <Genre>Animation, Adventure, Family</Genre>
+    <Director>
+      <Name High-rated-movie="Princess Mononoke">
+        <First>Hayao</First>
+        <Last>Miyazaki</Last>
+      </Name>
+    </Director>
+    <Studio>Studio Ghibli</Studio>
+    <Year>2001</Year>
+  </Movie>
+
+  <Movie Rating="R">
+    <Title Runtime="118">The Silence of the Lambs</Title>
+    <Genre>Crime, Drama, Thriller</Genre>
+    <Director>
+      <Name>
+        <First>Jonathan</First>
+        <Last>Demme</Last>
+      </Name>
+    </Director>
+    <Studio>Orion Pictures</Studio>
+    <Year>1991</Year>
+  </Movie>
+
+  <Movie Rating="R">
+    <Title Runtime="107">Whiplash</Title>
+    <Genre>Drama, Music</Genre>
+    <Director>
+      <Name High-rated-movie="La La Land">
+        <First>Damien</First>
+        <Last>Chazelle</Last>
+      </Name>
+    </Director>
+    <Studio>Bold Films</Studio>
+    <Year>2014</Year>
+  </Movie>
+
+  <Movie Rating="R">
+    <Title Runtime="98">WALL·E</Title>
+    <Genre>Animation, Adventure, Family</Genre>
+    <Director>
+      <Name High-rated-movie="Finding Nemo">
+        <First>Andrew</First>
+        <Last>Stanton</Last>
+      </Name>
+    </Director>
+    <Studio>Pixar Animation Studios</Studio>
+    <Year>2008</Year>
+  </Movie>
+</Movies>
