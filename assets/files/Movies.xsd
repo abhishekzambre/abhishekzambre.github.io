@@ -1,4 +1,4 @@
-﻿<?xml version="1.0" encoding="utf-8"?>
+<?xml version="1.0" encoding="utf-8"?>
 <xs:schema attributeFormDefault="unqualified" elementFormDefault="qualified" xmlns:xs="http://www.w3.org/2001/XMLSchema">
   <xs:element name="Movies">
     <xs:complexType>
@@ -16,14 +16,14 @@
                 </xs:complexType>
               </xs:element>
               <xs:element minOccurs="1" maxOccurs="1" name="Genre" type="xs:string" />
-              <xs:element minOccurs="1" maxOccurs="1" name="Director">
+              <xs:element minOccurs="1" maxOccurs="unbounded" name="Director">
                 <xs:complexType>
                   <xs:sequence>
-                    <xs:element minOccurs="1" maxOccurs="unbounded" name="Name">
+                    <xs:element name="Name">
                       <xs:complexType>
                         <xs:sequence>
-                          <xs:element minOccurs="1" name="First" type="xs:string" />
-                          <xs:element minOccurs="1" name="Last" type="xs:string" />
+                          <xs:element name="First" type="xs:string" />
+                          <xs:element name="Last" type="xs:string" />
                         </xs:sequence>
                         <xs:attribute name="High-rated-movie" type="xs:string" use="optional" />
                       </xs:complexType>
